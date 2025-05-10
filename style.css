@@ -201,6 +201,11 @@ main section h2 {
 main section p {
     margin: 0;
 }
+/* Estilos para móviles (pantallas pequeñas) */
+body {
+  font-size: 14px;
+  padding: 10px;
+}
 /* Estilos para tablets y laptops (pantallas medianas y grandes) */
 @media (min-width: 600px) {
   body {
