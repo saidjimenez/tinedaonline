@@ -201,3 +201,17 @@ main section h2 {
 main section p {
     margin: 0;
 }
+/* Estilos para tablets y laptops (pantallas medianas y grandes) */
+@media (min-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    font-size: 18px;
+    padding: 40px;
+  }
+}
